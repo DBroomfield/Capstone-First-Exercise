@@ -28,7 +28,9 @@ public class CalculatorMain {
 			break;
 		//TODO Add other Operations here
 		// Follow style of MultiplyOperation.java
-
+		case "div":
+			op = new DivisionOperation();
+			break;
 		default:
 			op = new MultiplyOperation();
 		}
