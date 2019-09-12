@@ -31,6 +31,9 @@ public class CalculatorMain {
 		case "div":
 			op = new DivisionOperation();
 			break;
+		case "sub":
+			op = new SubtractionOperation();
+			break;
 		default:
 			op = new MultiplyOperation();
 		}
