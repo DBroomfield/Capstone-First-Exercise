@@ -34,6 +34,9 @@ public class CalculatorMain {
 		case "sub":
 			op = new SubtractionOperation();
 			break;
+		case "add":		
+			op = new AdditionOperation();
+			break;	
 		default:
 			op = new MultiplyOperation();
 		}
